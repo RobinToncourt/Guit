@@ -5,15 +5,19 @@ authors = ["Robin Toncourt <robin.toncourt@gmail.com>"]
 edition = "2024"
 
 [dependencies]
-egui = "0.30"
-eframe = { version = "0.30", default-features = false, features = [
+egui = "0.31"
+eframe = { version = "0.31", default-features = false, features = [
     "default_fonts", # Embed the default egui fonts.
     "glow",          # Use the glow rendering backend. Alternative: "wgpu".
     "persistence",   # Enable restoring app state when restarting the app.
     "wayland",       # To support Linux (and CI).
 ] }
+egui_file = "0.22"
 # For application persistence.
 serde = { version = "1", features = ["derive"] }
 thiserror = "2.0.12"
 env_logger = "0.11.8"
 log = "0.4"
+anyhow = "1.0.96"
+regex = "1.11.1"
+

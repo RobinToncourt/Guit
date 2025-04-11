@@ -1,0 +1,22 @@
+{
+    "fr": {
+        "not_found": "Texte non trouvé",
+        "lang_label": "Langue",
+        "fonts_size": "Taille de la police",
+        "open_folder": "Ouvrir",
+        "file_dialog_title": "Sélectionné un dossier",
+        "file_dialog_open": "Ouvrir",
+        "file_dialog_cancel": "Annuler",
+        "file_dialog_show_hidden": "Afficher les dossiers caché",
+    },
+    "en": {
+        "not_found": "Text not found",
+        "lang_label": "Language",
+        "fonts_size": "Font size",
+        "open_folder": "Open",
+        "file_dialog_title": "Select folder",
+        "file_dialog_open": "Open",
+        "file_dialog_cancel": "Cancel",
+        "file_dialog_show_hidden": "Show hidden",
+    },
+}
